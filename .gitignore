@@ -1,0 +1,44 @@
+# Cache PHPUnit
+/.phpunit.cache
+.phpunit.result.cache
+
+# Node.js
+/node_modules
+
+# Laravel Mix
+/public/build
+/public/hot
+
+# Stockage public
+/public/storage
+
+# Clés sensibles
+/storage/*.key
+
+# Dépendances PHP
+/vendor
+
+# Variables d'environnement
+.env
+.env.backup
+.env.production
+
+# Fichiers spécifiques à PHP et aux outils de test
+.phpactor.json
+
+# Configuration Laravel Homestead
+Homestead.json
+Homestead.yaml
+
+# Fichiers de débogage
+npm-debug.log
+yarn-error.log
+
+# Fichiers spécifiques aux IDE
+/.fleet
+/.idea
+/.vscode
+
+# Cache Laravel (optionnel)
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
